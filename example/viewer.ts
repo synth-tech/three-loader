@@ -13,7 +13,7 @@ export class Viewer {
   /**
    * The ThreeJS renderer used to render the scene.
    */
-  private renderer = new WebGLRenderer();
+  renderer = new WebGLRenderer();
   /**
    * Our scene which will contain the point cloud.
    */
@@ -33,7 +33,7 @@ export class Viewer {
   /**
    * Array of point clouds which are in the scene and need to be updated.
    */
-  private pointClouds: PointCloudOctree[] = [];
+  pointClouds: PointCloudOctree[] = [];
   /**
    * The time (milliseconds) when `loop()` was last called.
    */

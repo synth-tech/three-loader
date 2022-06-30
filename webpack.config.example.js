@@ -6,7 +6,7 @@ const buildPath = path.resolve(__dirname, 'build');
 
 module.exports = {
   context: path.resolve('./example'),
-  entry: './main.ts',
+  entry: './picking.ts',
   output: {
     filename: 'example.bundle.js',
     path: buildPath,
